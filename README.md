@@ -16,3 +16,6 @@ It also helps us to think about how we may want to extract subsets of this datas
 
 
 Instead of simply just .....
+
+
+I decided to name this program Pandastic because the pandas library was the main library. :-)
