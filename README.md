@@ -4,84 +4,49 @@ This is one of my earlier code I wrote in Python as part of the subnmission for 
 
 Part of assignment requirements was to produce Simple Text-based Analysis using Pandas using whatever dataset.
 
-Instead of just dealing with just one specific dataset, I made this such that datasets in CSV/Excel format in a specific folders are read and processed to produce the analsys for the data read in from a file. 
-
-
-
-## Assignment rubrics
-1.	Demonstrate competency in using the Python Numpy, Pandas and Matplotlib packages for data analysis and data visualization
-2.	Demonstrate basic competency in working with relational and No-SQL databases for data analysis
-3.	Demonstrate competency in applying the insights gained from the outputs of your Python programs to deliver a useful data analysis presentation for your stakeholders
-
 ## Example of the result expected
 ```
-# This is formatted as code
+Successfully loaded dataset data/median-resale-prices-for-registered-applications-by-town-and-flat-type-utf8.csv 
+
+This is the shape of the dataset 
+(6396, 4) 
+
+This is the index of the dataset 
+Rangelndex (start=0, stop=6396, step=1) 
+
+These are the columns in the dataset 
+Index(['quarter', 'town', 'flat-type', 'prize'], dtype='object')
+
+The total number non-NA values in this dataset is:
+quarter      6396
+town         6396 
+flat_type    6396 
+price        2856
+dtype: int64
+
+A summary of this dataset is shown below:
+<class 'pandas.core.frame.DataFrame' > 
+Rangelndex: 6396 entries, 0 to 6395 
+Data columns (total 4 columns) : 
+quarter      6396 non-null object
+town         6396 non-null object
+flat_type    6396 non-null object
+price        2856 non-null object
+dtype: float64(1), object(3)
+Memory usage: 200.0+ KB
+None
+
+
+A descriptive statiscal summary of this dataset is shown below:
+               price
+count    2856.000000
+mean   424407.090336
+std   126306.254279
+min   136000.000000
+25%   330000.000000
+50%   415000.000000
+75%   501500.000000 
+max   855000.000000
 ```
 
-'''
-Successfully loaded dataset data/nedian-resale-prices-for-registered-applications-by-town- and- fl at-type-utf8. csv 
-This is the shape Of the dataset 
-(6396, 4) 
-This is the index of the dataset 
-Rangelndex (start=ø, stop-6396, step-I) 
-424ae7. e9e336 
-1263% .254279 
-136eeø. eøeeee 
-33eøeø.eeeeee 
-415eeø.eøeeee 
-5m eeeeee 
-8ssøeø.eøeeee 
-These are the columns in the dataset 
-Index (C , 
-• price • J, 
-The total number of non-NA values in this dataset is: 
-quarter 
-town 
-fl at_type 
-pri 
-6396 
-6396 
-6396 
-2856 
-dtype: int64 
-A sunnary of this dataset is shown below: 
-<class 'pandas .core .frarp .DataFranp ' > 
-Rangelndex: 6396 entries, e to 6395 
-Data columns (total 4 columns) : 
-quarter 
-town 
-fl at_type 
-pri 
-6396 non-null object 
-6396 non-null object 
-6396 non-null object 
-2856 non-null float64 
-dtypes: float64(1), object(3) 
-"Emory usage: 
-None 
-A descriptive 
-2øe.ø+ KB 
-statistical sumary of this dataset is shown below: 
-2856 .eøeeee 
-count 
-std 
-75% 
-max 
-
-'''
-
-Example 1 
-Simple Text-based Analysis using Numpy
-
-
-This output uses the Numpy library to load a HDB CSV dataset with the median resale prices by town and flat type and quickly breaks down the data with some simple useful-to-know information.
-
-With this quick breakdown, we quickly realise the price column may have n/a values since the isnumeric is False for this column.
-
-It also helps us to think about how we may want to extract subsets of this dataset and the choice of chart type for data visualization later.
-
-
-Instead of simply just .....
-
-
-I decided to name this program Pandastic because the pandas library was the main library. :-)
+Instead of just dealing with just one specific dataset, I made this such that datasets in CSV/Excel format in a specific folders are read and processed to produce the analysis information for the data read in from a file. I decided to name this program Pandastic because the pandas library was the main library. :-)
