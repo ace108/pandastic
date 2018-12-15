@@ -2,7 +2,11 @@
 
 This is one of my earlier code I wrote in Python as part of the subnmission for the Data Science-Artificial intelligence course I was taking in Singapore Polytechnic.
 
-Part of assignment requirements was to produce Simple Text-based Analysis using Pandas
+Part of assignment requirements was to produce Simple Text-based Analysis using Pandas using whatever dataset.
+
+Instead of just dealing with just one specific dataset, I made this such that datasets in CSV/Excel format in a specific folders are read and processed to produce the analsys for the data read in from a file. 
+
+
 
 ## Assignment rubrics
 1.	Demonstrate competency in using the Python Numpy, Pandas and Matplotlib packages for data analysis and data visualization
@@ -10,9 +14,12 @@ Part of assignment requirements was to produce Simple Text-based Analysis using 
 3.	Demonstrate competency in applying the insights gained from the outputs of your Python programs to deliver a useful data analysis presentation for your stakeholders
 
 ## Example of the result expected
+```
+# This is formatted as code
+```
+
 '''
-Successfully loaded dataset data/nedian-resale-prices-for-registered-applications-by- 
-town - and- fl at-type-utf8. csv 
+Successfully loaded dataset data/nedian-resale-prices-for-registered-applications-by-town- and- fl at-type-utf8. csv 
 This is the shape Of the dataset 
 (6396, 4) 
 This is the index of the dataset 
